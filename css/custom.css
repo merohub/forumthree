@@ -1,0 +1,24 @@
+
+	/* Basic styles */
+	.rwd-example div {
+        text-align: left;
+        border-color: #ddd; 
+	}
+      .rwd-example p {
+        color: #777;
+        line-height: 100%
+	}
+
+	/* Stack all blocks to start */
+	.rwd-example .ui-block-a, 
+	.rwd-example .ui-block-b, 
+	.rwd-example .ui-block-c { 
+		width: 100%; 
+		float: none; 
+	}
+
+
+.ui-body ui-body-d{background: red; }
+
+.rwd-example .ui-block-a .ui-body h2{font-size:12px; float: left;}
+.rwd-example .ui-block-a .ui-body p{font-size:12px; float: right;}
